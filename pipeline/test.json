@@ -50,7 +50,7 @@
 						"referenceName": "Ds_ADLS_Parquet",
 						"type": "DatasetReference",
 						"parameters": {
-							"container": "landing ",
+							"container": "landing",
 							"folder": "test"
 						}
 					}
