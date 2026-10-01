@@ -77,7 +77,7 @@
 					"source": {
 						"type": "PostgreSqlV2Source",
 						"query": {
-							"value": "SELECT * from PUBLIC.@{activity('Read Table Details').output.firstRow.source_tabel_name}",
+							"value": "SELECT * from PUBLIC.@{activity('Read Table Details').output.firstRow.source_table_name}",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00"
@@ -128,7 +128,7 @@
 					{
 						"activity": "Source To Landing Ingestion",
 						"dependencyConditions": [
-							"Succeeded"
+							"Skipped"
 						]
 					}
 				],
