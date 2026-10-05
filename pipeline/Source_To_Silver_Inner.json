@@ -89,6 +89,10 @@
 						"load_type": {
 							"value": "@activity('Read Table Details').output.firstRow.load_type",
 							"type": "Expression"
+						},
+						"source_file_format": {
+							"value": "@coalesce(activity('Read Table Details').output.firstRow.source_file_format,'')",
+							"type": "Expression"
 						}
 					}
 				},
