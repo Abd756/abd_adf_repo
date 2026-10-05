@@ -435,6 +435,10 @@
 												"folder": {
 													"value": "@activity('Read Table Details').output.firstRow.source_path",
 													"type": "Expression"
+												},
+												"container": {
+													"value": "@activity('Read Table Details').output.firstRow.container",
+													"type": "Expression"
 												}
 											}
 										}
