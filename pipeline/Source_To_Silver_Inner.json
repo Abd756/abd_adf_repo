@@ -53,7 +53,7 @@
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
-						"activity": "Switch1",
+						"activity": "Check Soure System",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -302,7 +302,7 @@
 				}
 			},
 			{
-				"name": "Switch1",
+				"name": "Check Soure System",
 				"type": "Switch",
 				"dependsOn": [
 					{
