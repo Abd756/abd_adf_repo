@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Read Source Tables List",
+				"name": "Lookup 1",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -36,7 +36,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Read Source Tables List",
+						"activity": "Lookup 1",
 						"dependencyConditions": [
 							"Succeeded"
 						]
